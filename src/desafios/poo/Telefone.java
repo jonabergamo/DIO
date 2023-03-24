@@ -11,7 +11,8 @@ public class Telefone extends ServiçoTelefonia{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Para quem você deseja ligar?");
 		String nome = sc.nextLine();
-		System.out.println("Ligando para "+nome);
+		System.out.println("Ligando para " + nome);
+		sc.close();
 	}
 
 	@Override
@@ -30,7 +31,8 @@ public class Telefone extends ServiçoTelefonia{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Para quem você deseja enviar um correio de voz?");
 		String nome = sc.nextLine();
-		System.out.println("Enviando Correio de voz para "+nome);
+		System.out.println("Enviando Correio de voz para " + nome);
+		sc.close();
 	}
 
 }

@@ -20,7 +20,8 @@ System.out.println("Musica pausada");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escolha uma musica para tocar: ");
 		String msc = sc.nextLine();
-		System.out.println("Você escolheu "+msc+", reproduzindo...");
+		System.out.println("Você escolheu " + msc + ", reproduzindo...");
+		sc.close();
 	}
 
 }
